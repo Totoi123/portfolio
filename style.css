@@ -1,0 +1,33 @@
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1
+
+}
+
+.para1 {
+  color: #f76258;
+  text-align: left;
+  font-family:'Gill Sans', 'Gill Sans MT';
+  font-size: 1.5vw;
+  padding-left: 1vw;
+}
+
+#footer {
+  position: fixed;
+  left: 1vw;
+  bottom: 0.5vw;
+}
+
+a {
+  color: #f7d9d7;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 900px) {
+  .para1 {
+    font-size: 3vw;
+    padding-right: 2vw;
+  }
+}
